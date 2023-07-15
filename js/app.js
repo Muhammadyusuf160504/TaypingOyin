@@ -35,7 +35,7 @@ restartEl.addEventListener('click', () => {
     modalEl.classList.remove('hidden')
     usertime = 10
     userScore = 0;
-    natijaEl.textContent = 0;
+    natijaEl.textContent = userScore;
     inputEl.value = "";
     const timeInterval = setInterval(() => {
         if (usertime > 0) {
